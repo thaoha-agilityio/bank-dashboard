@@ -4,6 +4,215 @@
       "email": "olivier@mail.com",
       "password": "$2a$10$s9cs38Fs4vCVeF1z/czIsOm7ixQKfPkBa4K2Q4KYFXBOV3ImaVgLu",
       "id": 1
+    },
+    {
+      "email": "olivier+1@mail.com",
+      "password": "$2a$10$F5l0hieCv6c97rDjV1lWouKQhX2MJOiHff6z3NVZhN3gMLfFO3PA.",
+      "id": 2
+    }
+  ],
+
+  "cards": [
+    {
+      "id": 1,
+      "userId": 1,
+      "balance": 500,
+      "income": 50,
+      "expenses": 30,
+      "save": 20,
+      "cardHolderName": "Olivier",
+      "cardNumber": "1234 5678 9012 3456",
+      "validThru": "12/25",
+      "transactionIds": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "balance": 5000,
+      "income": 50,
+      "expenses": 30,
+      "save": 20,
+      "cardHolderName": "Olivier",
+      "cardNumber": "1234 5678 9012 3456",
+      "validThru": "12/25",
+      "transactionIds": [
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+      ]
+    }
+  ],
+
+  "transactions": [
+    {
+      "id": 1,
+      "amount": -20,
+      "type": "payment",
+      "description": "Spotify Subscription",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 2,
+      "amount": 50,
+      "type": "payment",
+      "description": "Freepik Sales",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 3,
+      "amount": -10,
+      "type": "payment",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 4,
+      "amount": -50,
+      "type": "payment",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 5,
+      "amount": -50,
+      "type": "payment",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 6,
+      "amount": 150,
+      "type": "payment",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 7,
+      "amount": 150,
+      "type": "payment",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 8,
+      "amount": 150,
+      "type": "payment",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 9,
+      "amount": 150,
+      "type": "payment",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 10,
+      "amount": 150,
+      "type": "payment",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "completed",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 11,
+      "amount": 150,
+      "type": "payment",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "pending",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 12,
+      "amount": 150,
+      "type": "transfer",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "pending",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 13,
+      "amount": -150,
+      "type": "transfer",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "pending",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 14,
+      "amount": 150,
+      "type": "transfer",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "pending",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 15,
+      "amount": 350,
+      "type": "transfer",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "pending",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 16,
+      "amount": 3500,
+      "type": "transfer",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "pending",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 17,
+      "amount": -350,
+      "type": "transfer",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "pending",
+      "senderId": 1,
+      "receiverId": 2
     }
   ]
 }
