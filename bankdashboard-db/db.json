@@ -8,10 +8,24 @@
     {
       "email": "olivier+1@mail.com",
       "password": "$2a$10$F5l0hieCv6c97rDjV1lWouKQhX2MJOiHff6z3NVZhN3gMLfFO3PA.",
-      "id": 2
+      "id": 2,
+      "username": "dakota johnson",
+      "firstName": "Dakota",
+      "lastName": "Johnson",
+      "avatar": "https://i.ibb.co/SXzhqbv6/475864614-122204566640204459-3273777919248588794-n.jpg",
+      "country": "Newyork",
+      "permanentAddress": "123",
+      "postalCode": "",
+      "presentAddress": "",
+      "city": "",
+      "dateOfBirth": "Wed Jul 30 2025 00:00:00 GMT+0700 (Indochina Time)"
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$GoVYV3iDGIVTgKZRRp9PYef1LJgcIaiYYXtDQA7FhrJGNoZAQL7/m",
+      "id": 3
     }
   ],
-
   "cards": [
     {
       "id": 1,
@@ -42,7 +56,6 @@
       ]
     }
   ],
-
   "transactions": [
     {
       "id": 1,
@@ -207,6 +220,26 @@
     {
       "id": 17,
       "amount": -350,
+      "type": "transfer",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "pending",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 19,
+      "amount": -350,
+      "type": "transfer",
+      "description": "Mobile Service",
+      "createdAt": "2023-10-01T12:00:00Z",
+      "status": "pending",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 20,
+      "amount": 3500,
       "type": "transfer",
       "description": "Mobile Service",
       "createdAt": "2023-10-01T12:00:00Z",
